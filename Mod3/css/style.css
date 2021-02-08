@@ -1,0 +1,103 @@
+body{
+	background-color: gray;
+}
+
+body>h1{
+	text-align: center;
+	color: black;
+	font-weight: bold;
+	margin-bottom: 25px;
+}
+
+#header-nav{
+	background-color: black;
+	border-radius: 0;
+	border: 0;
+}
+
+.navbar-brand h1 {
+	font-family: 'arial';
+	color: white;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+
+.navbar-brand {
+	padding-top: 15px;
+}
+
+#nav-list {
+	margin-top: 10px;
+}
+
+#nav-list a{
+	color: white;
+	text-align: center;
+}
+
+#nav-list a:hover {
+	background: white;
+}
+
+#nav-list a span{
+	font-size: 1.8em;
+}
+
+.container{
+	margin: 0;
+	width: 100%;
+}
+.row{
+	width: 100%
+	margin:0;
+}
+
+h3{
+	text-align: center;
+	color: black;
+	text-transform: uppercase;
+}
+
+#chicken {
+	background-color: lightblue;
+	border: 2px solid black;
+	margin: 10px;
+}
+
+#beef {
+	background-color: lightgray;
+	border: 2px solid black;
+	margin:10px;
+}
+
+#sushi {
+	background-color: pink;
+	border: 2px solid black;
+	margin: 10px;
+}
+
+#content{
+	font-family: 'arial';
+	color: black;
+	text-align: justify;
+	font-style: italic;
+	padding: 0 15px 15px 15px;
+}
+
+section>a{
+	padding-left: 15px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 2px solid white;
+}
+
+.navbar-header button.navbar-toggle {
+	clear: both;
+	margin-top: -35px;
+}
